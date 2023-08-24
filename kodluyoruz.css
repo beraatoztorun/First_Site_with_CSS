@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#858585)) fixed;
+}
+
+
+.genel
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    font-size: large;
+}
+
+
+
+
+
+.container 
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:rgb(0, 255, 106) !important;
+    
+}
+
+.hplinks /* Ana Sayfa Linkleri */
+{
+    display: flex !important ;
+    align-items: center;
+    gap: 35px;
+    flex-direction: row !important;
+    height: 35px;
+    color: rgb(255, 255, 255) !important;
+}
+
+h2
+{
+    text-align: center;
+    color: red;
+}
+
+/* Who am I başlık animasyonu*/
+@-webkit-keyframes aniload {
+    from {-webkit-transform:translate(0px, 1000px)}
+    to   {-webkit-transform:translate(0px, 0px)}
+  }
+  
+  @-moz-keyframes aniload {
+    from {-moz-transform:translate(0px, 1000px)}
+    to   {-moz-transform:translate(0px, 0px)}
+  }
+  
+  @-ms-keyframes aniload {
+    from {-ms-transform:translate(0px, 1000px)}
+    to   {-ms-transform:translate(0px, 0px)}
+  }
+  
+  @-o-keyframes aniload {
+    from {-o-transform:translate(0px, 1000px)}
+    to   {-o-transform:translate(0px, 0px)}
+  }
+  
+  @keyframes aniload {
+    from {transform:translate(0px, 1000px)}
+    to   {transform:translate(0px, 0px)}
+  }
+
+
+
+/* Who am I yazısı*/
+.baslik1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:rgb(0, 255, 106) !important;
+    font-style: italic !important;
+    text-shadow: 2px 2px 5px rgb(17, 0, 255);
+
+    -webkit-animation:aniload 4s;
+    -moz-animation:aniload 4s;
+    -ms-animation:aniload 4s;
+    -o-animation:aniload 4s;
+    animation:aniload 4s;
+}
+
+/* Who am I'da bulunan linkler*/
+.links1 
+{
+    display: flex !important ;
+    align-items: center;
+    gap: 35px;
+    flex-direction: row !important;
+    height: 35px;
+    background-color: #33333327 !important; 
+}
+
+/* Who am I'da bulunan yazı*/
+.yazi1
+{
+    font-family: sans-serif;
+    margin: 1.3cm;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+
+}
+
+
+/*Song I Made sayfasında bulunan resim*/
+.image img{
+    display: flex ;
+    align-items: center;
+    gap: 35px;
+    flex-direction: row;
+    text-align: center;
+    object-fit: fill;
+    height: 60px;
+    width: auto;
+    margin-bottom: 20px ;
+    
+}
+
+/*Song I Made sayfasında bulunan yazı*/
+.yazi2{
+    margin: 1.3cm;
+    text-align: center;
+    color: rgb(0, 0, 0) !important;
+    font-size: 20px;
+
+}
+
+/*Song I Made sayfasında bulunan linkler*/
+.links2 
+{
+    display: flex !important ;
+    align-items: center;
+    gap: 35px;
+    flex-direction: row !important;
+    height: 35px;
+    background-color: #33333327 !important; 
+
+}
